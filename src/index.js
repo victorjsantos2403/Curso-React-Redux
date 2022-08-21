@@ -2,6 +2,7 @@ import ReactDOM from'react-dom';
 import React  from 'react';
 
 import './index.css';
+import Primeiro from './components/basicos/Primeiro';
 
 const el = document.getElementById('root');
 // Exemplo com o reactDom
@@ -10,6 +11,7 @@ const el = document.getElementById('root');
 // Exemplo com o jsx e React
 
 ReactDOM.render(
-    <div>Olá mundo react-native</div>,
+    <Primeiro></Primeiro>
+    ,
     el
 );
