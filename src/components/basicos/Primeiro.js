@@ -1,4 +1,8 @@
 import React from "react";
 export default function Primeiro() {
-    return <h2>Primeiro Componente</h2>;
+    return (
+        <div>
+            <h2>Primeiro Componente</h2>
+        </div>
+    );
 }
